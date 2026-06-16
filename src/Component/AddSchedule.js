@@ -42,3 +42,7 @@ function deleteSchedule(index) {
   scheduleList.splice(index, 1);
   renderSchedules();
 }
+
+// Legacy DOM markup calls these handlers from inline attributes.
+window.cancelSchedule = cancelSchedule;
+window.deleteSchedule = deleteSchedule;

@@ -32,3 +32,7 @@ function learnMore(assistant) {
       console.error("Unknown assistant for Learn More.");
   }
 }
+
+// Legacy DOM pages call these handlers from inline attributes.
+window.connectAssistant = connectAssistant;
+window.learnMore = learnMore;

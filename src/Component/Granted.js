@@ -19,3 +19,6 @@ function saveAccessCode() {
   console.log("Access Code Saved:", accessCodeData);
   alert("Temporary access code created successfully!");
 }
+
+// Legacy DOM pages call this handler from inline attributes.
+window.saveAccessCode = saveAccessCode;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronLeft, Tv2, Lightbulb, Package } from 'lucide-react';
+import { Tv2, Lightbulb, Package } from 'lucide-react';
 import {
   BarChart,
   Bar,

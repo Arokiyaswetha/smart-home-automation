@@ -32,3 +32,9 @@ function viewEnergyApiInfo() {
   console.log("Viewing energy provider API info...");
   window.open("https://example.com/energy-api-info", "_blank");
 }
+
+// Legacy DOM pages call these handlers from inline attributes.
+window.connectPlatform = connectPlatform;
+window.viewApiDocs = viewApiDocs;
+window.generateApiKey = generateApiKey;
+window.viewEnergyApiInfo = viewEnergyApiInfo;

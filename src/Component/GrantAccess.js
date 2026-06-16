@@ -11,3 +11,6 @@ function grantAccess() {
 
   alert("Guest access permissions updated successfully!");
 }
+
+// Legacy DOM pages call this handler from inline attributes.
+window.grantAccess = grantAccess;

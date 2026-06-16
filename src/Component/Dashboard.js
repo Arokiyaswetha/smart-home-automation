@@ -1,8 +1,5 @@
 import React from 'react';
 import '../css/dashboard.css';
-import {
-  Home, Settings, LogOut, Bell, Zap, Shield, Lightbulb, Gauge, Camera, Grid2X2, Layers, DoorOpen
-} from 'lucide-react';
 
 export default function Dashboard() {
   return (
@@ -41,17 +38,6 @@ export default function Dashboard() {
         </div>
       </div>
     </>
-  );
-}
-
-function SidebarItem({ icon, label }) {
-  return (
-    <li>
-      <span style={{ display: 'flex', alignItems: 'center' }}>
-        <span style={{ marginRight: '10px' }}>{icon}</span>
-        {label}
-      </span>
-    </li>
   );
 }
 

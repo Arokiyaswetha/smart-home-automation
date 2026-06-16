@@ -67,6 +67,10 @@ function disableRoutine(index) {
   renderRoutines("routine-list");
 }
 
+// Generated legacy DOM markup calls these handlers from inline attributes.
+window.editRoutine = editRoutine;
+window.disableRoutine = disableRoutine;
+
 // Call these functions after DOM is loaded
 document.addEventListener("DOMContentLoaded", () => {
   renderRoutines("routine-list");
