@@ -1,0 +1,191 @@
+.automation-container {
+  padding: 0px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.automation-breadcrumb {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+.automation-breadcrumb span {
+  font-weight: 600;
+  color: #111827;
+}
+
+.automation-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.automation-tabs-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.tab-button {
+  padding: 0.5rem 1rem;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #374151;
+  transition: background-color 0.2s;
+}
+.tab-button:hover {
+  background-color: #e5e7eb;
+}
+.tab-button.active {
+  background-color: #6d28d9;
+  color: white;
+  border-color: #6d28d9;
+}
+
+.automation-scenario-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.automation-scenario-card {
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.purple-card {
+  background: linear-gradient(135deg, #f3e8ff, #e9d5ff);
+  border: 1px solid #d8b4fe;
+}
+
+.rule-type {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.rule-type.rule {
+  background-color: #ede9fe;
+  color: #6d28d9;
+}
+.rule-type.schedule {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+.rule-type.voice-command {
+  background-color: #fef2f2;
+  color: #be123c;
+}
+
+.rule-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.rule-description {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.rule-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.purple-btn {
+  background-color: #a855f7;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.purple-btn:hover {
+  background-color: #9333ea;
+}
+
+.automation-form {
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background-color: #f3f4f6;
+}
+.purple-form {
+  background: linear-gradient(135deg, #ede9fe, #f3e8ff);
+  border: 1px solid #d8b4fe;
+}
+
+.automation-form h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.form-row label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+.form-row input {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 0.9rem;
+  background-color: #f3f4f6;
+}
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.device-schedule-table {
+  margin-top: 24px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 14px;
+}
+
+.schedule-table th {
+  background-color: #f3e8ff;
+  color: #4b0082;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.schedule-table input,
+.schedule-table select {
+  width: 100%;
+  padding: 4px;
+  font-size: 13px;
+}

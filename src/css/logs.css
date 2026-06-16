@@ -1,0 +1,130 @@
+.userlogs-container {
+  background-color: white;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111827;
+}
+
+.userlogs-breadcrumb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.breadcrumb-path {
+  font-size: 0.9rem;
+  color: #6b7280;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.breadcrumb-current {
+  font-weight: 600;
+  color: #000;
+}
+
+.breadcrumb-user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-name {
+  font-weight: 500;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.userlogs-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.userlogs-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.userlogs-table thead {
+  color: #6b7280;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.userlogs-table th,
+.userlogs-table td {
+  padding: 1rem 0.5rem;
+}
+
+.userlogs-row {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.2s ease;
+}
+
+.userlogs-row:hover {
+  background-color: #fafafa;
+}
+
+.name-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.user-avatar-small {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid #6366f1; /* Optional highlight border */
+}
+
+.status-tag {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  border-radius: 999px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.status-tag.active {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.status-tag.pending {
+  background-color: #fef9c3;
+  color: #92400e;
+}
+
+.status-tag.suspended {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.action-icons {
+  display: flex;
+  gap: 0.75rem;
+  color: #6b7280;
+}
+
+.action-icons .icon {
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+  transition: color 0.2s ease;
+}
+
+.action-icons .icon:hover {
+  color: #111827;
+}

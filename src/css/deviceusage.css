@@ -1,0 +1,127 @@
+.device-usage-page,
+.device-usage-tab {
+  padding: 32px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.breadcrumb-link {
+  cursor: pointer;
+  color: #3f0071;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+  color: #5b21b6;
+}
+
+.breadcrumb-current {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Headings */
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+h3,
+.section-subtitle {
+  font-size: 18px;
+  margin: 30px 0 12px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.subheading {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+/* Table - Security Incidents */
+.incident-table,
+.incidents-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  background-color: #f9f5ff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.incident-table th,
+.incident-table td,
+.incidents-table th,
+.incidents-table td {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.incident-table th,
+.incidents-table th {
+  background-color: #ede9fe;
+  color: #4b0082;
+  font-weight: 600;
+}
+
+.incident-table tr:nth-child(even),
+.incidents-table tr:nth-child(even) {
+  background-color: #f3e8ff;
+}
+
+/* Chart container spacing */
+.recharts-wrapper {
+  margin-bottom: 40px;
+}
+
+/* Export buttons */
+.export-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.export-buttons h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.export-buttons button {
+  background-color: #7c3aed;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.export-buttons .csv-btn {
+  background-color: #c084fc;
+  color: #000;
+}
+
+.export-buttons button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,19 @@
+.sidebar-item {
+  list-style: none;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.sidebar-item.active {
+  background-color: #3f0071;
+  font-weight: bold;
+  color: white;
+}
+
+.sidebar-item.active a {
+  color: white;
+}
+
+.sidebar-item:hover {
+  background-color: #ececec;
+}

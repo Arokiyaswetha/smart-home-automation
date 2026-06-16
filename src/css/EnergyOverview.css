@@ -1,0 +1,180 @@
+/* Base layout */
+.energy-overview {
+  padding: 32px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Page title */
+.energy-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+/* Breadcrumb Header */
+.device-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 6px;
+  color: #6b7280;
+}
+
+.breadcrumb span {
+  color: #333;
+}
+
+.breadcrumb .active {
+  font-weight: bold;
+  color: #000;
+}
+
+.dashboard-link {
+  cursor: pointer;
+  color: #3f0071;
+  font-weight: 500;
+  margin: 0 4px;
+  transition: color 0.2s ease;
+}
+
+.dashboard-link:hover {
+  text-decoration: underline;
+  color: #5b21b6;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 40px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 24px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-size: 15px;
+  padding-bottom: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.tabs button.active {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+.tabs button:hover {
+  color: #000;
+}
+
+/* Chart container */
+.chart-container {
+  width: 100%;
+  height: 18rem;
+  margin-bottom: 2rem;
+}
+
+/* Tips section */
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.tip-card {
+  background: linear-gradient(to bottom, #9333ea, #a855f7);
+  color: white;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  transition: transform 0.2s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-3px);
+}
+
+.tip-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tip-subtitle {
+  font-size: 0.9rem;
+  color: #f3e8ff;
+  margin-bottom: 0.25rem;
+}
+
+.tip-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.tip-description {
+  font-size: 0.9rem;
+  color: #f3e8ff;
+}
+
+/* Tip button */
+.tip-button {
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tip-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Device Usage section */
+.device-usage {
+  padding: 1.5rem;
+  background-color: #f9f5ff;
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+}
+
+.section-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #3f0071;
+  margin-bottom: 1rem;
+}
+
+.device-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.device-list li {
+  margin: 0.75rem 0;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  border-left: 4px solid #9333ea;
+}

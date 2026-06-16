@@ -1,0 +1,75 @@
+.create-rule-container {
+  padding: 32px;
+  background: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.breadcrumb {
+  display: flex;
+  gap: 6px;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.breadcrumb span:hover {
+  text-decoration: underline;
+  color: #3f0071;
+}
+
+.breadcrumb-current {
+  font-weight: bold;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.form-section {
+  margin-bottom: 24px;
+}
+
+.form-section h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #111827;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f3e8ff;
+  resize: none;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.button-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.save-btn {
+  background: #9333ea;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: #f3e8ff;
+  color: #9333ea;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

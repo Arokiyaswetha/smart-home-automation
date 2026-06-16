@@ -1,0 +1,156 @@
+.homepage-container {
+  font-family: 'Poppins', sans-serif;
+  background: #1b0434;
+  color: #fff;
+}
+
+/* Header */
+.homepage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #12002f;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.signin-btn {
+  background: white;
+  color: #9c27b0;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  padding: 80px 50px;
+  color: #fff;
+  background: linear-gradient(to right, #26014b, #5f138a);
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-content .highlight {
+  color: #c74eff;
+}
+
+.tagline {
+  font-style: italic;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+.description {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* Features */
+.features-section {
+  padding: 50px;
+  background: #fff;
+  color: #32005a;
+  border-radius: 30px 30px 0 0;
+  margin-top: -40px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.feature-card {
+  padding: 20px;
+  background: linear-gradient(to bottom right, #c287f2, #8f48cc);
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Offers */
+.offer-section {
+  padding: 40px 50px;
+  background-color: #1b0434;
+  color: #fff;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.offer-card {
+  padding: 20px;
+  background: #fff;
+  color: #32005a;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* About */
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Footer */
+.homepage-footer {
+  background-color: #12002f;
+  padding: 30px 50px;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-content h4 {
+  margin-bottom: 10px;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content li {
+  margin: 5px 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}

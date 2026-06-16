@@ -1,0 +1,127 @@
+/* Container */
+.add-device-container {
+  padding: 2rem;
+  background-color: #ffffff;
+  flex: 1;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  color: #6b7280; /* Tailwind gray-500 */
+}
+
+.breadcrumb span {
+  margin-right: 4px;
+}
+
+.breadcrumb .active {
+  font-weight: 600;
+  color: #111827; /* Tailwind black */
+}
+
+/* User Profile */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+}
+
+/* Form Titles */
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Form */
+form {
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Form Fields */
+input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #f3e8ff; /* Light purple */
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 0 2px #a855f7; /* Purple ring */
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: 500;
+  color: #1f2937; /* Tailwind gray-800 */
+  margin-bottom: 0.25rem;
+}
+
+/* Image */
+img.uploaded,
+.device-preview-image {
+  width: 200px;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+/* Buttons */
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+button.upload {
+  background-color: #6b21a8;
+  color: #fff;
+}
+
+button.upload:hover {
+  background-color: #581c87;
+}
+
+button.submit {
+  background-color: #9333ea;
+  color: #fff;
+}
+
+button.submit:hover {
+  background-color: #7e22ce;
+}
+
+button.cancel {
+  background-color: #d8b4fe;
+  color: #1f2937;
+}
+
+button.cancel:hover {
+  background-color: #c084fc;
+}

@@ -1,0 +1,195 @@
+.device-control-container {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 32px;
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  box-sizing: border-box;
+}
+
+.device-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-bottom: 32px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.device-card {
+  background-color: #f3e8ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  width: 100%; /* Ensure card does not overflow */
+  box-sizing: border-box;
+}
+
+
+.device-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 6px;
+  color: #6b7280;
+}
+
+.breadcrumb span {
+  color: #333;
+}
+
+.breadcrumb .active {
+  font-weight: bold;
+  color: #000;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 40px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-size: 15px;
+  padding-bottom: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.tabs button.active {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+.tabs button:hover {
+  color: #000;
+}
+
+/* Device cards */
+.device-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-bottom: 32px;
+}
+
+.device-card {
+  background-color: #f3e8ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.device-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.device-card h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.device-card p {
+  font-size: 13px;
+  margin: 2px 5px 2px 5px;
+  color: #444;
+}
+
+.device-card .buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.device-card button {
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.device-card .action-btn {
+  background-color: #7c3aed;
+  color: #fff;
+}
+
+.device-card .action-btn:hover {
+  background-color: #6b21a8;
+}
+
+.device-card .settings-btn {
+  background-color: #d8b4fe;
+  color: #000;
+}
+
+.device-card .settings-btn:hover {
+  background-color: #c084fc;
+}
+
+/* Add Device Section */
+.add-section {
+  margin-top: 24px;
+}
+
+.add-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #3f0071;
+}
+
+.add-section button {
+  background-color: #6b21a8;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-section button:hover {
+  background-color: #581c87;
+}
+.dashboard-link {
+  cursor: pointer;
+  color: #3f0071;
+  font-weight: 500;
+  margin: 0 4px;
+  transition: color 0.2s ease;
+}
+
+.dashboard-link:hover {
+  text-decoration: underline;
+  color: #5b21b6;
+}

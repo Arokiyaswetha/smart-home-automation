@@ -1,0 +1,84 @@
+.alerts-container {
+  padding: 24px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #6b7280; /* gray-600 */
+  margin-bottom: 8px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.tab-buttons {
+  display: flex;
+  border-bottom: 1px solid #e5e7eb; /* gray-200 */
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.tab-buttons button {
+  padding: 8px 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #9333ea; /* purple-600 */
+  border-bottom: 2px solid transparent;
+}
+
+.tab-buttons button.active {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.notifications-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.notification-icon {
+  background: linear-gradient(to bottom right, #9333ea, #6b21a8); /* purple gradient */
+  padding: 12px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-icon svg {
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.notification-content p {
+  margin: 0;
+}
+
+.notification-title {
+  font-weight: 500;
+  font-size: 15px;
+  color: black;
+}
+
+.notification-subtitle {
+  font-size: 13px;
+  color: #6b7280;
+}

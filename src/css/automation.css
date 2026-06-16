@@ -1,0 +1,49 @@
+.automation-wrapper {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+.tabs {
+  display: flex;
+  gap: 40px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+.automation-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  /* margin-right: 100px; */
+}
+
+.automation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.automation-card {
+  display: flex;
+  align-items: center;
+  background: #f3d8f5;
+  border-radius: 10px;
+  padding: 15px 20px;
+  gap: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.automation-icon {
+  background: #e2aeea;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
